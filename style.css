@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    
+}
+#back{
+    width: 100%;
+    height: 100vh;
+    
+}
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   
+}
+.workingarea{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+    /* background-color: black; */
+    /* border: 1px solid red ; */
+    position: relative;
+}
+#nav{
+    padding: 20px;
+    width: 100%;
+    /* background-color: rgb(152, 101, 101); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+
+
+}
+#nav #nleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#nleft a{
+    pointer-events: all;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+   
+}
+#nav #nright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#nright a{
+    pointer-events: all;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#nav img{
+    height: 70px;
+}
+
+#hero{
+    width: 100%;
+    /* background-color: red; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-0%,-50%);
+}
+#heroleft{
+    min-width: 50%; 
+    /* background-color: yellow; */
+    margin-top: 3vw;
+   
+}
+
+#heroleft .elem{
+    overflow: hidden;
+    height: 9vw;
+    line-height: .8;
+    margin-left:1.7vw;
+    position: relative;
+}
+#heroleft .elem h1{
+    position: absolute;
+    top: 100;
+    left: 0;
+    font-family: "kajiro";
+    font-size: 11vw;
+    font-weight: 100;
+  
+}
+#heroleft .elen h1:nth-child(1){
+    top: 0;
+}
+#heroleft button{
+    font-family: "kajiro";
+    padding: .4vw 2.8vw;
+    font-size: 3vw;
+    pointer-events: all;
+    color: black;
+    margin-left:1.7vw;
+    margin-top: 1.3vw;
+    letter-spacing: 0.1vw;
+
+}
+#heroright{
+    margin-top: 39px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 22%;
+    color: white;
+   
+  
+}
+#heroright p {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+#heroright #imagediv{
+    width: 100%;
+    height: 170px;
+   
+    margin-top: 20px;
+    margin-bottom: 13px;
+    
+}
+#heroright #imagediv img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    object-position: center;
+}
+#heroright p:nth-child(1){
+    margin-bottom: 10px;
+}
+#heroright p:nth-child(3){
+    color: red;
+    margin-bottom: 50px;
+}
